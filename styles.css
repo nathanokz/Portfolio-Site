@@ -112,7 +112,6 @@ html, body {
     width: 450px;
     min-height: 400px;
     text-align: center;
-    font-size: 17px;
     position: relative;
     background-color: rgb(41, 41, 41);
     border-radius: 20px;
@@ -162,26 +161,3 @@ button:hover {
     transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-    .texto, .texto2, .foto, .circulo, .linha {
-        position: static;
-        transform: none;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .icone, .icone2, .icone3 {
-        position: static;
-        display: inline-block;
-        margin: 10px 5px 0 5px;
-    }
-
-    .materia {
-        width: 90%;
-    }
-
-    .quadradoGrande {
-        flex-direction: column;
-        align-items: center;
-    }
-}
